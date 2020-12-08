@@ -23,6 +23,7 @@ public class RNCMaskedView extends ReactViewGroup {
 
     mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     mPorterDuffXferMode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);
+    setEnabled(false);
   }
 
   @Override
